@@ -19,7 +19,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -259,22 +260,32 @@ input, select, textarea {
 	{
 		h1 {
 			font-size: 2.95em;
+			text-align: center;
+		}
+		p, pre
+		{
+			text-align: center;
+            font-size: small;
 		}
 
 		h2 {
 			font-size: 1.25em;
+			text-align: center;
 		}
 
 		h3 {
 			font-size: 1em;
+			text-align: center;
 		}
 
 		h4 {
 			font-size: 0.8em;
+			text-align: center;
 		}
 
 		h5 {
 			font-size: 0.6em;
+			text-align: center;
 		}
 
 	}
@@ -343,7 +354,7 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		border: solid 1px !important;
-		border-color:  #1a1a1ae2 !important;
+		border-color: #1a1a1ae2 !important;
 		box-shadow: rgba(0, 0, 0, 0.112) 0px 0px 10px 20px;
 		box-shadow: rgba(0, 0, 0, 0.31) 0px 0px 10px 5px;
 		border-radius: 3em;
@@ -370,13 +381,10 @@ input, select, textarea {
 			transition: 300ms;
 			background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
 			border-radius: 50px;
-			box-shadow: rgba(151, 65, 252, 0.2) 0px 0px 10px 8px;
-			font-weight: bold;
-			
-			
+			box-shadow: rgba(255, 255, 255, 0.114) 0px 0px 10px 2.5px;
 			
 		}
-	
+		
 
 /*-----------------------------------------------------------------------------*/
 
@@ -614,7 +622,7 @@ input, select, textarea {
 				-webkit-flex-direction: column;
 				-ms-flex-direction: column;
 				flex-direction: column;
-				margin-left: 0;
+				margin:auto;
 				width: 38% !important;
 			}
 
@@ -975,6 +983,13 @@ input, select, textarea {
 			height: 50vh;
 			min-height: 15em;
 		}
+		.spotlights > section:nth-child(2) {
+			background-color: #000000;
+		}
+
+		.spotlights > section:nth-child(3) {
+			background-color: #000000;
+		}
 		
 		
 
@@ -1034,6 +1049,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #1a1a1a;
+			
 		}
 
 		.wrapper.style1-alt {
@@ -1101,16 +1117,44 @@ input, select, textarea {
 
 			}
 			@media screen and (max-device-width: 480px)
-	{
-		.wrapper.fullscreen {
-			padding: 2em 0;
-			min-height: 0;
-		}
-
-			body.is-ie .wrapper.fullscreen {
-				height: auto;
+	       {
+			.wrapper.alt {
+				background-color: #000000;
 			}
-	}
+	
+			.wrapper.style1 {
+				background-color: #000000;
+				
+			}
+	
+			.wrapper.style1-alt {
+				background-color: #000000;
+			}
+	
+			.wrapper.style2 {
+				background-color: #000000;
+			}
+	
+			.wrapper.style2-alt {
+				background-color: #000000;
+			}
+	
+			.wrapper.style3 {
+				background-color: #000000;
+			}
+	
+			.wrapper.style3-alt {
+				background-color: #000000;
+			}
+					.wrapper.fullscreen {
+						padding: 2em 0;
+						min-height: 0;
+					}
+
+					body.is-ie .wrapper.fullscreen {
+						height: auto;
+					}
+			}
 
 		.wrapper.fade-up > .inner {
 			-moz-transform: translateY(0);
