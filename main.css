@@ -1,5 +1,3 @@
-/*Last upadate: wed jul 5 11:32*/
-
 @import url(fontawesome-all.min.css);
 
 
@@ -21,11 +19,6 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-video
-{
-	
-}
-
 
 
 article, aside, details, figcaption, figure,
@@ -116,7 +109,7 @@ input, select, textarea {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
-			animation: none !important;
+			animation:none !important;
 			-moz-transition: none !important;
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
@@ -180,6 +173,8 @@ input, select, textarea {
 	p, pre{
 		margin: 0 0 2em 0;
 	}
+
+
 
 	h1, h2, h3, h4, h5 {
 		color: #defb00;
@@ -272,6 +267,7 @@ input, select, textarea {
 			text-align: center;
             font-size: small;
 		}
+		
 
 		h2 {
 			font-size: 1.25em;
@@ -1012,7 +1008,8 @@ input, select, textarea {
        .skills
 		{
 			/* background-image: linear-gradient(144deg,#00ffb7ae, #004cff80); */
-			background-color: #000000;
+			/* background-color: #000000; */
+			background-image: linear-gradient(144deg,#9500ff, #5B42F3 50%,#6a00ff);
 			border-radius: 50px;
 			padding: 0px 9px 0px 9px; 
 			margin-left: 10px;
@@ -1021,8 +1018,9 @@ input, select, textarea {
 			font-weight:bold;
 			box-shadow: rgb(18, 18, 18) 0px 0px 5px 2px;
 			border: solid 2px !important;
-			border-color: #8000ff8c !important;
+			border-color: #2f2f2f !important;
 		}
+
 		.skills:active,
 	    .skills:hover 
 		{
@@ -1059,7 +1057,18 @@ input, select, textarea {
 		}
 		@media screen and (max-device-width: 480px)
 		{
-			
+			 .skills
+		{
+			/* background-image: linear-gradient(144deg,#282828, #565656); */
+			border-radius: 50px;
+			padding: 0px 9px 0px 9px; 
+			margin-left: 10px;
+			color: #ffffff;
+			font-weight:lighter;
+			box-shadow: rgb(15, 15, 15) 0px 0px 5px 2px;
+			border: solid 2px !important;
+			border-color: #000000 !important;
+		}
 		}
 
 /* Wrapper for home page*/
@@ -1883,10 +1892,12 @@ input, select, textarea {
 				margin: 0;
 			}
 
-				.ntiles article {
-					width: 100%;
-					margin: 1.25em 0 0 0;
-				}
+			.ntiles article {
+				width: 100%;
+				margin: 1.25em 0 0 0;
+			}
+
+			
 
 		}
 		.nimage {
